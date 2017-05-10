@@ -1,0 +1,6 @@
+C:\Users\prana\tiy\week-9\day-3\RunningTests\RunningTests\bin\Debug\RunningTests.exe.config
+C:\Users\prana\tiy\week-9\day-3\RunningTests\RunningTests\bin\Debug\RunningTests.exe
+C:\Users\prana\tiy\week-9\day-3\RunningTests\RunningTests\bin\Debug\RunningTests.pdb
+C:\Users\prana\tiy\week-9\day-3\RunningTests\RunningTests\obj\Debug\RunningTests.csprojResolveAssemblyReference.cache
+C:\Users\prana\tiy\week-9\day-3\RunningTests\RunningTests\obj\Debug\RunningTests.exe
+C:\Users\prana\tiy\week-9\day-3\RunningTests\RunningTests\obj\Debug\RunningTests.pdb

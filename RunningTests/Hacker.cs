@@ -9,7 +9,7 @@ namespace RunningTests
     public class Hacker
     {
 
-        public static string Pangram(string sentence)
+        public string Pangram(string sentence)
         {
             var comparison = new List<char> { 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j',
                 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'
