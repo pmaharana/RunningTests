@@ -34,5 +34,29 @@ namespace UnitTestProject1
             Assert.AreEqual("not pangram", testing);
         }
 
+        [TestMethod]
+        public void BlankSentence()
+        {
+            var hacker = new Hacker();
+            var testing = hacker.Pangram("    ");
+            Assert.AreEqual("not pangram", testing);
+        }
+
+        [TestMethod]
+        public void NumbersAndSpecialCharacters()
+        {
+            var hacker = new Hacker();
+            var testing = hacker.Pangram("52752352##  ???99900");
+            Assert.AreEqual("not pangram", testing);
+        }
+
+        [TestMethod]
+        [ExpectedException(typeof(NullReferenceException))]
+        public void StringIsNull()
+        {
+            var hacker = new Hacker();
+            hacker.Pangram(null);
+        }
+
     }
 }
